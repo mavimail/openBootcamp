@@ -1,0 +1,16 @@
+//@autor: María Victoria Dolgay
+//email: mavidolgay@icloud.com
+//notes: Ejercicio del Bootcamp de Open Bootcamp - Introducción a la programación.
+//description: Ejercicios Tema 3
+
+// Segunda parte del Ejercicio - Crear una clase coche.
+public class Coche {
+
+    // Dentro de la clase coche, una variable numérica que almacene el número de puertas que tiene.
+        public int puertas = 0;
+
+        // Una función que incremente el número de puertas que tiene el coche.
+        public void aumentarPuertas() {
+            this.puertas++;
+        }
+    }
