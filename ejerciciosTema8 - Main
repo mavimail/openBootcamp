@@ -3,6 +3,7 @@
 //notes: Ejercicio del Bootcamp de Open Bootcamp - Introducción a la programación.
 //description: Ejercicios Tema 8
 
+//También ver el archivo de la clase Persona del tema 8
 
 public class Main {
     public static void main(String[] args) {
