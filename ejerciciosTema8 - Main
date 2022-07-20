@@ -1,0 +1,23 @@
+//@autor: María Victoria Dolgay
+//email: mavidolgay@icloud.com
+//notes: Ejercicio del Bootcamp de Open Bootcamp - Introducción a la programación.
+//description: Ejercicios Tema 8
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        //Crear un objeto persona en el main.
+        Persona persona = new Persona ();
+
+        //Utiliza los gets y sets para darle valores a las propiedades edad,
+        // nombre y telefono, por último muéstralas por consola.
+        persona.setEdad(42);
+        persona.setNombre("Mavi");
+        persona.setTelefono(123123123);
+
+        System.out.println("Edad: " + persona.getEdad());
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Teléfono: " + persona.getTelefono());
+    }
+}
